@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93D0D08D1F51D0FA00159AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D0D08C1F51D0FA00159AB2 /* AppDelegate.swift */; };
+		93D0D08F1F51D0FA00159AB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D0D08E1F51D0FA00159AB2 /* ViewController.swift */; };
+		93D0D0921F51D0FA00159AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D0D0901F51D0FA00159AB2 /* Main.storyboard */; };
+		93D0D0941F51D0FA00159AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D0D0931F51D0FA00159AB2 /* Assets.xcassets */; };
+		93D0D0971F51D0FA00159AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D0D0951F51D0FA00159AB2 /* LaunchScreen.storyboard */; };
+		93D0D0A31F51F03200159AB2 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0D0A01F51E8DD00159AB2 /* AWSSNS.framework */; };
+		93D0D0A41F51F03200159AB2 /* AWSSNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0D0A01F51E8DD00159AB2 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93D0D0A51F51F03200159AB2 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0D09E1F51E8C300159AB2 /* AWSCore.framework */; };
+		93D0D0A61F51F03200159AB2 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0D09E1F51E8C300159AB2 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93D0D0A91F51F6B500159AB2 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0D0A81F51F6B500159AB2 /* AWSCognito.framework */; };
+		93D0D0AB1F51F6F900159AB2 /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0D0A81F51F6B500159AB2 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93D0D0A71F51F03200159AB2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				93D0D0AB1F51F6F900159AB2 /* AWSCognito.framework in Embed Frameworks */,
+				93D0D0A41F51F03200159AB2 /* AWSSNS.framework in Embed Frameworks */,
+				93D0D0A61F51F03200159AB2 /* AWSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		93D0D0891F51D0FA00159AB2 /* SpreebieSNSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreebieSNSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D0D08C1F51D0FA00159AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93D0D08E1F51D0FA00159AB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93D0D0911F51D0FA00159AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93D0D0931F51D0FA00159AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93D0D0961F51D0FA00159AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93D0D0981F51D0FA00159AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D0D09E1F51E8C300159AB2 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCore.framework; sourceTree = "<group>"; };
+		93D0D0A01F51E8DD00159AB2 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSNS.framework; sourceTree = "<group>"; };
+		93D0D0A21F51EAC900159AB2 /* SpreebieSNSExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpreebieSNSExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		93D0D0A81F51F6B500159AB2 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognito.framework; sourceTree = "<group>"; };
+		93D0D0AC1F51FA1E00159AB2 /* SpreebieSNSExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpreebieSNSExample.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D0D0861F51D0FA00159AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D0D0A91F51F6B500159AB2 /* AWSCognito.framework in Frameworks */,
+				93D0D0A51F51F03200159AB2 /* AWSCore.framework in Frameworks */,
+				93D0D0A31F51F03200159AB2 /* AWSSNS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93D0D0801F51D0FA00159AB2 = {
+			isa = PBXGroup;
+			children = (
+				93D0D0A21F51EAC900159AB2 /* SpreebieSNSExample-Bridging-Header.h */,
+				93D0D0A81F51F6B500159AB2 /* AWSCognito.framework */,
+				93D0D0A01F51E8DD00159AB2 /* AWSSNS.framework */,
+				93D0D09E1F51E8C300159AB2 /* AWSCore.framework */,
+				93D0D08B1F51D0FA00159AB2 /* SpreebieSNSExample */,
+				93D0D08A1F51D0FA00159AB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93D0D08A1F51D0FA00159AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D0D0891F51D0FA00159AB2 /* SpreebieSNSExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D0D08B1F51D0FA00159AB2 /* SpreebieSNSExample */ = {
+			isa = PBXGroup;
+			children = (
+				93D0D0AC1F51FA1E00159AB2 /* SpreebieSNSExample.entitlements */,
+				93D0D08C1F51D0FA00159AB2 /* AppDelegate.swift */,
+				93D0D08E1F51D0FA00159AB2 /* ViewController.swift */,
+				93D0D0901F51D0FA00159AB2 /* Main.storyboard */,
+				93D0D0931F51D0FA00159AB2 /* Assets.xcassets */,
+				93D0D0951F51D0FA00159AB2 /* LaunchScreen.storyboard */,
+				93D0D0981F51D0FA00159AB2 /* Info.plist */,
+			);
+			path = SpreebieSNSExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D0D0881F51D0FA00159AB2 /* SpreebieSNSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D0D09B1F51D0FA00159AB2 /* Build configuration list for PBXNativeTarget "SpreebieSNSExample" */;
+			buildPhases = (
+				93D0D0851F51D0FA00159AB2 /* Sources */,
+				93D0D0861F51D0FA00159AB2 /* Frameworks */,
+				93D0D0871F51D0FA00159AB2 /* Resources */,
+				93D0D0A71F51F03200159AB2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpreebieSNSExample;
+			productName = SpreebieSNSExample;
+			productReference = 93D0D0891F51D0FA00159AB2 /* SpreebieSNSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D0D0811F51D0FA00159AB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Open Beacon";
+				TargetAttributes = {
+					93D0D0881F51D0FA00159AB2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q3QATXHHM9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 93D0D0841F51D0FA00159AB2 /* Build configuration list for PBXProject "SpreebieSNSExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D0D0801F51D0FA00159AB2;
+			productRefGroup = 93D0D08A1F51D0FA00159AB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D0D0881F51D0FA00159AB2 /* SpreebieSNSExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D0D0871F51D0FA00159AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D0D0971F51D0FA00159AB2 /* LaunchScreen.storyboard in Resources */,
+				93D0D0941F51D0FA00159AB2 /* Assets.xcassets in Resources */,
+				93D0D0921F51D0FA00159AB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D0D0851F51D0FA00159AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D0D08F1F51D0FA00159AB2 /* ViewController.swift in Sources */,
+				93D0D08D1F51D0FA00159AB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93D0D0901F51D0FA00159AB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D0D0911F51D0FA00159AB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93D0D0951F51D0FA00159AB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D0D0961F51D0FA00159AB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93D0D0991F51D0FA00159AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93D0D09A1F51D0FA00159AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D0D09C1F51D0FA00159AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpreebieSNSExample/SpreebieSNSExample.entitlements;
+				DEVELOPMENT_TEAM = Q3QATXHHM9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SpreebieSNSExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.openbeacon.SpreebieSNSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/thabo/Documents/Spreebie/Spreebie1.1/Marketing/SNS Tutorial/SpreebieSNSExample/SpreebieSNSExample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		93D0D09D1F51D0FA00159AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpreebieSNSExample/SpreebieSNSExample.entitlements;
+				DEVELOPMENT_TEAM = Q3QATXHHM9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SpreebieSNSExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.openbeacon.SpreebieSNSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/thabo/Documents/Spreebie/Spreebie1.1/Marketing/SNS Tutorial/SpreebieSNSExample/SpreebieSNSExample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D0D0841F51D0FA00159AB2 /* Build configuration list for PBXProject "SpreebieSNSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D0D0991F51D0FA00159AB2 /* Debug */,
+				93D0D09A1F51D0FA00159AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D0D09B1F51D0FA00159AB2 /* Build configuration list for PBXNativeTarget "SpreebieSNSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D0D09C1F51D0FA00159AB2 /* Debug */,
+				93D0D09D1F51D0FA00159AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93D0D0811F51D0FA00159AB2 /* Project object */;
+}
